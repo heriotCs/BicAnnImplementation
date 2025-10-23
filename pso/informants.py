@@ -37,7 +37,7 @@ class Informants:
                 )
                 for _ in range(self.n)
             ]
-            # Ensure self is an informant (as per Luke’s description, the particle is one of its own informants) :contentReference[oaicite:1]{index=1}
+            # Ensure self is an informant (as per Luke’s description, the particle is one of its own informants)
             for i in range(self.n):
                 if i not in self.informant_list[i]:
                     # replace a random index with self
